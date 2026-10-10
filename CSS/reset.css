@@ -1,5 +1,4 @@
-html, body, header, section, article, footer, nav, figure, form, input, label, legend, fieldset, button, figcaption,
-h1, h2, h3, h4, h5, h6, p, textarea {
+html, body, header, section, article, footer, nav, figure, figcaption, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 	padding: 0;
 	border: 0;

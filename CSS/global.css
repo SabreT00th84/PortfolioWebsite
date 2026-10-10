@@ -125,10 +125,6 @@ figure {
         gap: 1rem;
     }
 
-    #profile {
-        grid-area: profile;
-    }
-
     #menu {
         grid-area: menu;
         display: inline;
@@ -137,12 +133,12 @@ figure {
         margin: 0;
     }
 
-    #navLinks {
-        display: none;
+    .displayed {
+        display: flex;
     }
 
-    #menu:hover {
-        background-color: #FFFFFF00;
+    .hidden {
+        display: none;
     }
 
     #menu>img {
@@ -154,66 +150,3 @@ figure {
         grid-area: navLinks
     }
 }
-
-/* Unused Code
-
-button {
-    border: none;
-    border-radius: 0.5rem;
-    box-shadow: none;
-    padding: 0.75rem 2rem;
-    background-color: #9BC53D;
-    color: #F5F5F5;
-}
-
-button:hover {
-    background-color: #8AB42C;
-}
-
-button.destructive {
-    background-color: #81272F;
-}
-
-button.destructive:hover {
-    background-color: #70161E;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    max-width: 80%;
-    margin: 1rem;
-    flex-grow: 1;
-    color: #F5F5F5;
-    border-radius: 0.5rem;
-}
-
-form fieldset {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem;
-}
-
-form legend.form-title {
-    text-align: center;
-}
-
-form div {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-}
-
-form input, form textarea, form label{
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-}
-
-form .buttons {
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-}
-*/
