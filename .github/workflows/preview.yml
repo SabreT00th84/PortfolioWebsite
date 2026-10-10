@@ -30,7 +30,8 @@ jobs:
       - name: Build Jekyll Site
         if: github.event.action != 'closed'
         run: |
-          bundle exec jekyll build --baseurl "/staging-pr-views/pr-${{ github.event.number }}"
+          gem install jekyll webrick
+          jekyll build --baseurl "/staging-pr-views/pr-${{ github.event.number }}"
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
