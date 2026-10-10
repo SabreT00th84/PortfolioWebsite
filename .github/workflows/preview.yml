@@ -41,6 +41,6 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           preview-branch: main
-          pages-base-url: https://eesaadam.me
+          pages-base-url: eesaadam.me
           wait-for-pages-deployment: true
           qr-code: true
