@@ -1,0 +1,27 @@
+section {
+    padding: 1rem;
+}
+
+.title {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.title>img {
+    max-width: 5rem;
+    margin: 1rem;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+#skills>figure {
+    max-width: 75rem;
+}
+
+#skills img {
+    max-width: 100%;
+}

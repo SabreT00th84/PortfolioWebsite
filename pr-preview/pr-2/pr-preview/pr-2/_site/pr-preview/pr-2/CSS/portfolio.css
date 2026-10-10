@@ -1,0 +1,44 @@
+section {
+    padding: 1rem;
+}
+
+.title {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.title>img {
+    max-width: 5rem;
+    margin: 1rem;
+}
+
+.titled-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.titled-section>h2 {
+    width: 100%;
+}
+
+.proj-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0.5rem 0.1rem grey;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 1rem;   
+    text-align: center;
+}
+
+.proj-card img {
+    max-width: 15rem;
+}
+
+#ios-projects {
+    background-color: #F5F5F5;
+}
