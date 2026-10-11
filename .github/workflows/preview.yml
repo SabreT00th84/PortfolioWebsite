@@ -41,6 +41,6 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           preview-branch: main
-          pages-base-url: eesaadam.me
+          pages-base-url: eesaadam.me/staging-pr-views/pr-${{ github.event.number }}
           wait-for-pages-deployment: true
           qr-code: true
