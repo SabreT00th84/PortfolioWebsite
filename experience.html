@@ -1,84 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/experience.css">
-    <script src="JS/mobileHeader.js" defer></script>
-    <title>Eesa Adam | Experience</title>
-</head>
-<body>
-    <header>
-        <a id="logo" href="index.html"><img src="Images/logo.png" alt="logo"></a>
-        <nav id="navLinks">
-            <a href="index.html">Eesa Adam</a>
-            <a href="experience.html">Experience</a>
-            <a href="education.html">Education</a>
-            <a href="portfolio.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="blog.html">Blog</a>
-        </nav>
-        <div id="menu-buttons">
-            <a id="cv" href="#"><img src="Images/CV-icon.png" alt="cv"></a>
-            <button id="menu"><img src="Images/menu-icon.svg" alt="menu-icon"></button>
-        </div>
-    </header>
-    <main>
-        <section class="title">
-            <h1>My Experience</h1>
-            <img src="Images/work-icon.svg" alt="work icon">
-        </section>
-        <section id="experience">
-            <article class="exp-card">
-                <figure id="pynnacle-fig">
-                    <img src="Images/pynnacle-assets-logo.png" alt="Pynnacle Logo">
-                    <figcaption>Pynnacle Assets Logo</figcaption>
-                </figure>
-                <h2>Pynnacle Assets</h2>
-                <p>IT Technician | June 2023 - August 2024</p>
-                <ul>
-                    <li>
-                        Worked as a junior IT technician for small property company, main responsibilities included repairing and configuring office computers and servers.
-                    </li>
-                    <li>
-                        Balanced a part-time job with studying for A-Levels, demonstrating strong time management skills.
-                    </li>
-                    <li>
-                        Rapidly developed property lettings website over 3 weeks, listing all company's properties and securing it using an SSL certificate.
-                    </li>
-                    <li>
-                        Migrated 1000s of files from outdated file server to a cloud storage solution, SharePoint, ensuring secure access from a central location.
-                    </li>
-                    <li>
-                        Trained 5 existing staff members to use SharePoint, resulting in the whole team adopting the new system seamlessly.
-                    </li>
-                </ul>
-            </article>
-            <article class="exp-card">
-                <figure id="rgs-logo">
-                    <img src="Images/rgshw-logo.png" alt="RGS Logo">
-                    <figcaption>RGSHW Logo</figcaption>
-                </figure>
-                <h2>The Royal Grammar School High Wycombe</h2>
-                <p>Library Prefect | June 2024 - June 2025</p>
-                <ul>
-                    <li>
-                        Delivered assembly to 1400+ students encouraging reading and warning against the dangers of social media.
-                    </li>
-                    <li>
-                        Engaged with students from younger year groups, nurturing in them a love for reading and literacy.
-                    </li>
-                    <li>
-                        Held one-to-one sessions with students who were reading below their level, improving their understanding.
-                    </li>
-                </ul>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>&copy 2026 Eesa Adam</p>
-    </footer>
-</body>
-</html>
+---
+layout: default
+title: Experience
+extra_css: /CSS/experience.css
+---
+<section class="title">
+    <h1>My Experience</h1>
+    <img src="{{ '/Images/work-icon.svg' | relative_url }}" alt="work icon">
+</section>
+<section id="experience">
+    <article class="exp-card">
+        <figure id="pynnacle-fig">
+            <img src="{{ '/Images/pynnacle-assets-logo.png' | relative_url }}" alt="Pynnacle Logo">
+            <figcaption>Pynnacle Assets Logo</figcaption>
+        </figure>
+        <h2>Pynnacle Assets</h2>
+        <p>IT Technician | June 2023 - August 2024</p>
+        <ul>
+            <li>
+                Worked as a junior IT technician for small property company, main responsibilities included repairing and configuring office computers and servers.
+            </li>
+            <li>
+                Balanced a part-time job with studying for A-Levels, demonstrating strong time management skills.
+            </li>
+            <li>
+                Rapidly developed property lettings website over 3 weeks, listing all company's properties and securing it using an SSL certificate.
+            </li>
+            <li>
+                Migrated 1000s of files from outdated file server to a cloud storage solution, SharePoint, ensuring secure access from a central location.
+            </li>
+            <li>
+                Trained 5 existing staff members to use SharePoint, resulting in the whole team adopting the new system seamlessly.
+            </li>
+        </ul>
+    </article>
+    <article class="exp-card">
+        <figure id="rgs-logo">
+            <img src="{{ '/Images/rgshw-logo.png' | relative_url }}" alt="RGS Logo">
+            <figcaption>RGSHW Logo</figcaption>
+        </figure>
+        <h2>The Royal Grammar School High Wycombe</h2>
+        <p>Library Prefect | June 2024 - June 2025</p>
+        <ul>
+            <li>
+                Delivered assembly to 1400+ students encouraging reading and warning against the dangers of social media.
+            </li>
+            <li>
+                Engaged with students from younger year groups, nurturing in them a love for reading and literacy.
+            </li>
+            <li>
+                Held one-to-one sessions with students who were reading below their level, improving their understanding.
+            </li>
+        </ul>
+    </article>
+</section>

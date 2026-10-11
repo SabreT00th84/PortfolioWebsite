@@ -1,5 +1,5 @@
 <header>
-    <a id="logo" href="{{ '/index.html' | relative_url }}">
+    <a id="logo" href="{{ '/' | relative_url }}">
         <img src="{{ '/Images/logo.png' | relative_url }}" alt="logo">
     </a>
     <nav id="navLinks" class="hidden">
@@ -12,7 +12,7 @@
         <a href="{{ '/education' | relative_url }}" class="{% if  page.name == 'education.html'%}active{% endif %}">
             Education
         </a>
-        <a href="{{ '/portfolio' | relative_url }}" class="{% if  page.name == 'portfolio.html'%}active{% endif %}">
+        <a href="{{ '/projects' | relative_url }}" class="{% if  page.name == 'projects.html'%}active{% endif %}">
             Projects
         </a>
         <a href="{{ '/skills' | relative_url }}" class="{% if  page.name == 'skills.html'%}active{% endif %}">
