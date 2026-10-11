@@ -3,12 +3,24 @@
         <img src="{{ '/Images/logo.png' | relative_url }}" alt="logo">
     </a>
     <nav id="navLinks" class="hidden">
-        <a href="{{ '/index.html' | relative_url }}">Eesa Adam</a>
-        <a href="{{ '/experience.html' | relative_url }}">Experience</a>
-        <a href="{{ '/education.html' | relative_url }}">Education</a>
-        <a href="{{ '/portfolio.html' | relative_url }}">Projects</a>
-        <a href="{{ '/skills.html' | relative_url }}">Skills</a>
-        <a href="{{ '/blog.html' | relative_url }}">Blog</a>
+        <a href="{{ '/index' | relative_url }}" class="{% if  page.name == 'index.html'%}active{% endif %}">
+            Eesa Adam
+        </a>
+        <a href="{{ '/experience' | relative_url }}" class="{% if  page.name == 'experience.html'%}active{% endif %}">
+            Experience
+        </a>
+        <a href="{{ '/education' | relative_url }}" class="{% if  page.name == 'education.html'%}active{% endif %}">
+            Education
+        </a>
+        <a href="{{ '/portfolio' | relative_url }}" class="{% if  page.name == 'portfolio.html'%}active{% endif %}">
+            Projects
+        </a>
+        <a href="{{ '/skills' | relative_url }}" class="{% if  page.name == 'skills.html'%}active{% endif %}">
+            Skills
+        </a>
+        <a href="{{ '/blog' | relative_url }}" class="{% if  page.name == 'blog.html'%}active{% endif %}">
+            Blog
+        </a>
     </nav>
     <div id="menu-buttons">
         <a id="cv" href="#"><img src="{{ '/Images/CV-icon.png' | relative_url }}" alt="cv"></a>
