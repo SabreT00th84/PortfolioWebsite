@@ -29,7 +29,7 @@ section {
     border-radius: 1rem;
 }
 
-.edu-card>figure>img {
+.edu-card>img {
     max-width: 15rem;
     background-color: #F5F5F5;
     padding: 1rem;
