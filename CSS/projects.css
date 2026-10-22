@@ -43,7 +43,7 @@ section {
     text-align: center;
 }
 
-.proj-card img {
+.proj-card>img {
     max-width: 15rem;
     margin: 1rem;
 }

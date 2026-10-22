@@ -29,6 +29,7 @@ section {
     border-radius: 1rem;
 }
 
-.exp-card img {
-    max-width: 15rem
+.exp-card>img {
+    max-width: 15rem;
+    margin: 1rem;
 }
